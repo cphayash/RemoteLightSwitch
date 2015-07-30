@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "user";
 $password = "password";
-$dbname = "home_automation";
+$dbname = "database";
 
 $update_sys_time = date('Y-m-d G:i:s');
 $status = 1;
