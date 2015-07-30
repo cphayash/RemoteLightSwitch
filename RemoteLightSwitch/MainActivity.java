@@ -74,7 +74,7 @@ public class MainActivity extends ActionBarActivity {
 			// Toast hi = new Toast().makeText(Context new Context(), "HI!", 1);
 //			URL url = new URL(
 //					"http://api.geonames.org/weatherJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=demo");
-			URL url = new URL("http://107.202.146.106/scripts/lightOff.php");
+			URL url = new URL("http://127.0.0.1/scripts/lightOff.php");
 			Log.i("BB", "Just created URL.  About to create BufferedReader");
 			BufferedReader reader = new BufferedReader(new InputStreamReader(
 					url.openStream()));
