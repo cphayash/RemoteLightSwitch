@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "R34d0nly";
-$dbname = "home_automation";
+$username = "user";
+$password = "password";
+$dbname = "database";
 
 $update_sys_time = date('Y-m-d G:i:s');
 $status = 0;
