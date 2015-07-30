@@ -26,7 +26,7 @@ def off(ser):
 
 
 def getStatus():
-	db_conn = MySQLdb.connect('localhost', 'root', 'R34d0nly', 'home_automation');
+	db_conn = MySQLdb.connect('localhost', 'user', 'password', 'database');
 
 	try:
 		cur = db_conn.cursor();
