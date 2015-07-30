@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "root";
-$password = "R34d0nly";
-$dbname = "home_automation";
+$username = "user";
+$password = "password";
+$dbname = "database";
 
 try {
 	echo "Preparing MySQL connection...";
